@@ -8,32 +8,27 @@
 </head>
 <body>
     <main>
-        <section>
-            <img src="https://picsum.photos/50
-            " alt="">
-        <h1>Titulo</h1>
-        </section>|
-
-        <section>
-            <h2>subtitulo</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ullam fugit assumenda, quod magnam fugiat a vero temporibus nam quaerat beatae excepturi, iure numquam quibusdam officiis suscipit minima labore blanditiis.</p>
+        <section class="encabezado">
+            <img src="img/pajarito.svg"
+             alt="">
+            <h1>TRIPIFY</h1>
         </section>
 
-        <form>
-            <div>
-                <label>Email</label>
-                <input type="text">
-            </div>
-            <div>
-                <label>Password</label>
-                <input type="password">
-            </div>
-            <div>
-                <input type="submit" value="Log In">
-            </div>
-            <div>
-                <p>Don't have an account?<b>Register</b></p>
-            </div>
+        <section class="debajo-encabezado">
+            <h2>Explore your dream destinations</h2>
+            <p>Welcome to Tripify! Please enter your login credentials to access your account and explore our wide range of travel options.</p>
+        </section>
+
+        <form class="formulario">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+       
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        
+            <input type="submit" class="log-in" value="Log In">
+            
+            <p class="register">Don't have an account?<b>Register</b></p>
         </form>
     </main>
 </body>
